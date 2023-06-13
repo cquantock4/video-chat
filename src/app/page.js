@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import React from 'react';
+import VideoChat from './posts/VideoChat';
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -29,14 +32,10 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <div style={{ display: 'flex' }}>
+          <VideoChat />
+          <VideoChat isRemote />
+        </div>
       </div>
 
       <div className={styles.grid}>

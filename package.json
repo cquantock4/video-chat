@@ -11,6 +11,10 @@
   "dependencies": {
     "next": "13.4.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-twilio-video": "^1.1.16",
+    "react-webcam": "^7.1.1",
+    "simple-peer": "^9.11.1",
+    "twilio-video": "^2.27.0"
   }
 }
