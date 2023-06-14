@@ -1,8 +1,8 @@
 # InstantVideo
-=======
-InstantVideo is a mobile friendly web app that will connect two user via a one-time link
 
-=======
+## About
+
+InstantVideo is a mobile friendly web app that will connect two user via a one-time link
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 import React from 'react';
-import VideoChat from './posts/VideoChat';
+import VideoChatWindow from './posts/VideoChatWindow';
 
 export default function Home() {
   return (
@@ -32,10 +32,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <div style={{ display: 'flex' }}>
-          <VideoChat />
-          <VideoChat isRemote />
-        </div>
+          <VideoChatWindow />
       </div>
 
       <div className={styles.grid}>
